@@ -295,7 +295,7 @@ namespace ConsoleApplication4
             paragraph para = new paragraph();
             int header = 0;
 
-            while (paragraph[0] == '%')
+            while (paragraph[0] == '#')
             {
 
                 paragraph = paragraph.Substring(1, paragraph.Length - 1);
